@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="nothing">Nothing to display</string>
+    <string name="not_connected">Not connected to internet</string>
+</resources>
