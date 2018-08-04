@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     private static final String LOG_TAG = MainActivity.class.getName();
     private static final int NEWS_LOADER_ID = 1;
     private static final String NEWS_API_URL = "http://content.guardianapis.com/search";
-    private static final String NEWS_API_KEY = "test";
+    private static final String NEWS_API_KEY = "3586eb9d-e1fe-49a9-91da-93e9986bbab5";
 
     private SwipeRefreshLayout mSwipeRefreshLayout;
     private RecyclerView.Adapter mAdapter;
