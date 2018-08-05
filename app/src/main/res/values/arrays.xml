@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="settings_order_by_labels">
-        <item>@string/settings_order_by_magnitude_label</item>
+        <item>@string/settings_order_by_oldest_label</item>
         <item>@string/settings_order_by_most_recent_label</item>
     </string-array>
 
     <string-array name="settings_order_by_values">
-        <item>@string/settings_order_by_magnitude_value</item>
+        <item>@string/settings_order_by_oldest_value</item>
         <item>@string/settings_order_by_most_recent_value</item>
     </string-array>
 
     <string-array name="settings_section_values">
-        <item>@string/settings_section_default_value</item>
         <item>@string/settings_section_business_value</item>
         <item>@string/settings_section_cities_value</item>
         <item>@string/settings_section_education_value</item>
@@ -19,7 +18,6 @@
     </string-array>
 
     <string-array name="settings_section_labels">
-        <item>@string/settings_section_default_label</item>
         <item>@string/settings_section_business_label</item>
         <item>@string/settings_section_cities_label</item>
         <item>@string/settings_section_education_label</item>

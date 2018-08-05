@@ -160,7 +160,7 @@ public class Query {
                 }
             }
         } catch (JSONException e) {
-            Log.e("QueryUtils", "Problem parsing the news JSON results", e);
+            Log.e("Query", "Problem parsing the news JSON results", e);
         }
 
         return newsList;

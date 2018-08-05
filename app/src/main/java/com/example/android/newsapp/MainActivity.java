@@ -109,7 +109,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         Uri.Builder uriBuilder = baseUri.buildUpon();
         uriBuilder.appendQueryParameter("show-fields", "byline");
         uriBuilder.appendQueryParameter("order-by", orderBy);
-        uriBuilder.appendQueryParameter("use-date", "published");
         uriBuilder.appendQueryParameter("from-date", date);
         uriBuilder.appendQueryParameter("section", section);
         uriBuilder.appendQueryParameter("api-key", NEWS_API_KEY);

@@ -8,6 +8,13 @@ import android.util.Log;
 import java.util.ArrayList;
 import java.util.List;
 
+import android.content.AsyncTaskLoader;
+import android.content.Context;
+import android.text.TextUtils;
+import android.util.Log;
+
+import java.util.List;
+
 public class NewsLoader extends AsyncTaskLoader<List<News>> {
     private static final String LOG_TAG = NewsLoader.class.getName();
 
@@ -32,6 +39,8 @@ public class NewsLoader extends AsyncTaskLoader<List<News>> {
         if (TextUtils.isEmpty(mUrl)) {
             return null;
         }
+        // Perform the HTTP request for news data and process the response.
+        //noinspection UnnecessaryLocalVariable
         List<News> newsList = Query.fetchNewsData(mUrl);
         return newsList;
     }

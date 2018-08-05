@@ -12,7 +12,7 @@
 
 
     <ListPreference
-        android:defaultValue="@string/settings_section_default"
+        android:defaultValue="Business"
         android:entries="@array/settings_section_labels"
         android:entryValues="@array/settings_section_values"
         android:key="@string/settings_section_key"
